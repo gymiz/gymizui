@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.main-header{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
+}
+.header-transparent {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    border-bottom: 1px solid rgba(220, 220, 220, .2)
+}
+.main-header-2.sticky-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #515151;
+}
+
+.main-header-2.sticky-header .navbar-expand-lg .navbar-nav .link-color {
+    color: #fff;
+    font-weight: 600;
+}

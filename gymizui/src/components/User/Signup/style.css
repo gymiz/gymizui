@@ -1,0 +1,49 @@
+.signup-container {
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 40px;    
+}
+
+.signup-form-button {
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.signup-form-button[disabled], .signup-form-button[disabled]:hover, .signup-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #f0151f;
+    border-color: #f0151f;
+}
+.signup-form-button[enabled], .signup-form-button[enabled]:hover, .signup-form-button[enabled]:focus {
+    opacity: 0.6;
+    color: rgb(10, 8, 8);
+    background-color: #f0151f;
+    border-color: #f0151f;
+}
+
+.signup-form input {
+    margin-bottom: 3px;
+}
+
+.ant-btn-primary{
+    background-color: #f0151f;
+    border-color: #f0151f;
+};
+.ant-btn-primary ::after{
+    background-color: #f0151f;
+    border-color: #f0151f;
+    color:#fff;
+}
+.ant-form-explain {
+    color: #f0151f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+.link-not-important{
+    color:#0D0063;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
